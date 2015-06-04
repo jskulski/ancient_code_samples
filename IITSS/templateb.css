@@ -1,0 +1,497 @@
+/********************* LAYOUT DIVS ***********************/
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	text-align: center;
+	font-family:  "Lucida Grande," Lucida Sans Unicode, verdana, arial, sans-serif;
+	font-size: small;
+	line-height: 1.4em;
+	background-color: #fff;
+	}
+
+#ServiceList { 
+	list-style: none;
+	margin-left: -40px;
+	}
+
+#Container {	/* Contains background gradient only */
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff url(templateb-images/bodybg.gif) top center repeat-x;
+	background-attachment: fixed;
+	}
+	
+#ContentWrapper {	/* Actual wrapper for all content */
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-left: 44px;
+	width: 751px;
+	text-align: left;
+	font-size: 90%;
+	}
+	
+#Masthead {
+    padding: 0px;
+    margin: 0;
+	margin-left: 12px;
+	border-bottom: 3px solid #898989; 
+    } 
+
+#Logo {
+	display: block;
+	width: 740px;
+	height: 150px;
+	background: url(templateb-images/header.jpg) no-repeat;	
+}
+
+#Topper {
+	background: transparent url(templateb-images/logo-jss48.gif) center no-repeat;
+	display: block;
+	width: 135px;
+	height: 84px;
+	margin: 13px 0px 0 8px;	
+	padding: 0 0 0px 5px;
+	float: left;
+	clear: none;
+	}
+
+#Mission {
+	float: right;
+	margin: 0 8px 0 0;
+	padding: 1px 0 0 18px;
+	background-color: transparent;
+	width: 570px;
+	height: 100px;
+	border-bottom: 1px solid #898989;
+	border-left: 1px solid #898989;
+	}
+	
+#Navigation {
+	float: left;
+	width: 135px;
+	clear: none;
+	margin: 0px 0 0 15px;
+	padding: 0 0 90px 5px;
+	text-align: right;
+	background: url(templateb-images/fadedown.gif) no-repeat top right;
+	}
+	
+#Right {
+	margin: 0px 15px 0 0;
+	padding: 0 0 90px 0;
+	background-color: #fff;
+	float: right;
+	width: 125px;
+	clear: none;
+	background: #fff url(templateb-images/fadedown.gif) no-repeat top left;
+	}
+	
+
+#Links li.superlink { 
+	font-size: larger;
+	font-weight:lighter;
+	}
+
+#Links li.sublink { 
+	font-size: smaller;
+	}	
+
+#ThreeColumns {
+	float: left;
+	width: 425px;
+	margin: 0;
+	padding: 0 15px 0 15px;
+	background-color: transparent;
+	}
+	
+#TwoColumns {
+	float: left;
+	width: 525px;
+	margin: 20px 0 0 0;
+	padding: 0 10px 0 10px;
+	background-color: transparent;
+	}
+	
+	
+#Content {
+	margin: 10px 0 60px 10px;
+	}
+	
+#Subnav {
+	float: right;
+	width: 125px;
+	margin: 10px 0px 10px 15px;
+	padding: 0;
+	border-left: 1px solid #bbb;
+	}
+	
+#Footer {
+	margin-top: 0px;
+	padding: 5px 0 40px 0;
+	width: 100%;
+	color: #606060;
+	background: transparent url(templateb-images/footer.gif) repeat-x top center;
+	border-top: 1px solid #898989;
+	font-size: 85%;
+	text-align: center;
+	}
+	
+/********************* LINKS ***********************/
+	
+a:link, a:visited {
+	color: #404040;
+	font-weight: bold;
+	text-decoration: none
+	}
+	
+#Content  a:link {
+	color: #5c78ab;
+	border-bottom: dotted 1px #5c78ab;
+	}
+	
+#Content  a:visited {
+	color: #5c78ab;
+	}
+	
+#Content  a:hover {
+	border-bottom: solid 1px #5c78ab;
+	}
+
+.navlink a:link {
+	font-size: 90%;
+	}
+	
+.navlink a:visited {
+	color: #666;
+	font-size: 90%;
+	}
+	
+.navlink a:hover {
+	color: #5c78ab;
+	}
+	
+.navlink a.selected {
+	color: #5c78ab;
+	}
+	
+#Footer a:link, a:visited {
+	color: #606060;
+	}
+	
+#Footer a:hover {
+	text-decoration: underline;
+	}
+		
+#Content .jumpto a:link, #Content .jumpto a:visited {
+  border: none;
+  color: #666;
+}
+
+#Content .jumpto a:hover {
+	color: #5c78ab;
+	}
+	
+/********************* P ***********************/
+#Mission p {
+	color: #666;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 16px;
+	}
+	
+#Content p {
+	margin: 6px 0 1.5em;
+	padding: 0px 2px 2px 2px;
+	}
+	
+ .caption p {
+  font-size: 90%;
+  font-style: italic;
+}
+	
+/********************* LISTS ***********************/
+#Navigation ul {
+	margin: 0px 0 40px 0;
+	padding-top: 10px;
+	list-style-type: none;
+	/*background: transparent url(templateb-images/fadeleft.gif) no-repeat top right;*/
+	}
+	
+#Navigation ul li {
+	margin: 7px 0 0 0;
+	padding: 0 15px 0 0;
+	line-height: 1.3em;
+	text-indent: -35px;
+	}
+
+/* quiet, we're in the second level */
+#Navigation ul ul { 
+	color: #CCCCCC;
+	font-size: smaller;
+	}
+
+#Right ul {
+	margin: 0px 0 40px 0;
+	padding-top: 10px;
+	list-style-type: none;
+	}
+	
+#Right ul.notop {
+	padding-top: 15px;
+	background-image: none;
+	}
+	
+#Right ul li {
+	margin: 0px -8px 7px -30px;
+	padding: 0;
+	line-height: 1.3em;
+	}
+
+/* STATUS */
+.status { 
+	display: block;
+	background: #cccc99;
+	border: thin solid #003333;
+	font-size: smaller;
+ 	}
+
+.status .subject { 
+	color: #003333;
+	font-size: larger;
+	font-weight: bold;
+	display: block;
+	clear: both;
+	}    
+
+.status .date, .time, .fromtime { 
+	color: #003333;
+	font-style: italic;
+	}
+
+.status .fromtime { 
+	display: block;
+	clear: left;
+	}
+
+.status p.info { 
+	font-size: xx-small;
+	display: block;
+	}
+
+.status a:link, a:visited {
+	color: #5C78AB;
+	}	
+/* end STATUS */
+
+#Subnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: transparent url(templateb-images/faderight.gif) no-repeat top left;
+	}
+	
+#Subnav ul li {
+	padding: 5px 5px 10px 10px;
+	margin: 0;
+	line-height: 1.2em;
+	}
+
+#Subnav ul li.top {
+	padding-top: 10px;
+	}
+
+#Subnav ul li.last {
+	background: transparent url(templateb-images/faderight.gif) no-repeat bottom left;
+	}
+	
+#Content ul, #Content ol, #Content dl {
+	margin-bottom: 1.5em;
+	}
+	
+ul.jumpto {
+  background: url("templateb-images/grayfade.jpg") repeat-y left top;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 20px;
+  float: left;
+  width: 370px;
+  position: relative;
+  left: -20px;
+}
+ul.jumpto li {
+  display: inline;
+  background: url("templateb-images/arrows.gif") no-repeat left center; 
+  margin: 0 30px 0 0;
+  padding: 0 0 0 12px;
+}
+	
+dt {
+  margin: 1em 0 .5em;
+  font-size: 120%;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl.illustrated {
+  float: left;
+  margin: 0 0 15px 0;
+  width: 375px;
+}
+
+.illustrated dt {
+  margin-top: 0;
+  float: right;
+  width: 300px;
+}
+
+.illustrated dd{
+  margin: 0 0 0 75px;
+}
+
+.illustrated dd.thumbnail {
+  margin: 0;
+}
+
+.illustrated dd.thumbnail img {
+  float: left;
+}
+	
+/********************* Hx ***********************/
+	
+#Content h1 {
+	font-size: 150%;
+	margin: 0;
+	padding: 5px 0;
+	color: #003333;
+	}
+	
+#Content h2 {
+	font-size: 120%;
+	margin: 0;
+	padding: 5px 0;
+	color: #003333;
+	}
+	
+#Content h3 {
+	font-size: 110%;
+	margin: 5px 0 0 0;
+	padding: 0;
+	color: #003333;
+	}
+	
+#Content h4 {
+	font-size: 100%;
+	margin: 5px 0 0 0;
+	padding: 0;
+	color: #003333;
+	}
+	
+
+/********************* TABLES ***********************/
+	
+#Content table {
+	margin:  1em 0 1.5em 0;
+	padding: 0 ;
+	width: 99%;
+	}
+
+#Content  caption  {
+	text-align: left;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	}
+
+#Content th {
+	text-align: left;
+	border-bottom: solid 1px #737373;
+	line-height: 1.2em;
+	font-size: 90%;
+	padding: 5px 10px;
+	background: #eee;
+	}
+	
+#Content td {
+	border-bottom: solid 1px #ccc;
+	line-height: 1.2em;
+	font-size: 90%;
+	padding: 5px 10px;
+	}
+
+/********************* FORMS ***********************/
+
+fieldset {
+	border: dotted 1px #cccc99;
+	margin: 0 0 15px 0;
+	}
+
+legend {
+	font-weight: bold;
+	font-size: 1.1em;
+	background: #fff;
+	padding: 0 5px;
+	}
+	
+input, textarea {
+  background: #eee;
+  border: solid 1px #aaa;
+  color: #333;
+  padding: 3px;
+}
+label {
+  font-weight: bold;
+   color: #333;
+}
+
+/********************* IMAGES ***********************/
+a img {
+  border: none;
+}
+.caption img, .thumbnail img, .thumb {
+  padding: 10px;
+  border: solid 2px #999;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+}
+.thumbnail img {
+  padding: 5px;
+  margin: 0 10px 10px 0;
+}
+
+/********************* CLASSES ***********************/
+
+.submit {
+	text-align: right
+	}
+
+.hidden {
+	display: none;
+	}
+	
+/********************* MISC ***********************/
+strong {
+  color: #003333;
+}
+pre {
+   background: #eee;
+  border: solid 1px #c5c5c5;
+  color: #333;
+  padding: 3px;
+}
+code {
+  background: #eee;
+  color: #333;
+  padding: 3px;
+}
+.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.right {
+  float: right;
+   margin: 0 0 10px 10px;
+}

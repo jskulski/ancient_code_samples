@@ -1,0 +1,503 @@
+/*************************** LAYOUT DIVS ***************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #6D6D6D;
+	text-align: center;
+	font-family: "Lucida Grande," Lucida Sans Unicode, verdana, arial, sans-serif;
+	font-size: small;
+	line-height: 1.5;
+	background-color: #fff;
+	}
+	
+#ORIG-Wrapper {	/* Contains the background image - Now COntainer*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff url(templatec-images/bg.gif) repeat-y top center;
+	}
+	
+#ORIG-Container {	/* Wraps and Centers the Content - Now Wrapper*/
+	width: 800px;
+	margin: auto;
+	padding: 0;
+	text-align: left;
+	border-bottom: 1px solid #4c4c4c;
+	font-size: 90%;
+	}
+
+#Container{	/* Contains the background image */
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff url(templatec-images/bg.gif) repeat-y top center;
+	}
+
+#ContentWrapper {	/* Wraps and Centers the Content */
+	width: 800px;
+	margin: auto;
+	padding: 0;
+	text-align: left;
+	border-bottom: 1px solid #4c4c4c;
+	font-size: 90%;
+	}
+
+#Masthead {
+    margin: 0 0 0 2px;
+    padding: 0;
+    display: block;
+	width: 794px;
+    height: 40px; 
+	overflow: hidden;
+    } 
+
+#Logowrapper {
+	margin: 0;
+	padding: 0 0 0 5px;
+	width: 794px;
+	height: 40px;
+	background: transparent url(templatec-images/hsuwrap.jpg) repeat-x top left;
+}
+
+/* Compatibility with TemplateB */
+#Mission { 
+	display: none;
+	}
+	
+#Logo {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 360px;
+	height: 40px;
+	background: url(templatec-images/hsumark.gif) no-repeat;
+}
+
+#Topper {
+	clear: both;
+	margin: 15px 0px 0px 17px;
+	padding: 17px 0px;
+	height: auto;
+	background: transparent url(images/instructionalitss.gif) no-repeat;
+	}
+
+#TopperBottom { 
+	background: transparent url(templatec-images/faderight_sm.gif) no-repeat bottom left;
+}
+
+#Navigation {
+	float: left;
+	width: 160px;
+	clear: none;
+	margin: 30px 0 0 5px;
+	padding: 0 5px;
+	background-color: #fff;
+	text-align: right;
+	}
+	
+#Links { 
+	padding-top: 15px;
+	}
+	
+#Links li.superlink { 
+	font-size: larger;
+	color:#CCCCCC;
+	}
+
+#Links li.sublink { 
+	font-size: smaller;
+	color:#CCCCCC;
+	}
+	
+* html #Navigation {
+	margin-left: 5px !important;	/* IE Mac applies the correct margin */
+	ma\rgin-left: 12px;	/* IE 6 Win displays this one */
+	}
+
+#ORIG-Right {
+	margin: 30px 25px 0 0;
+	padding: 0;
+	padding-left: 20px;
+	background-color: #fff;
+	float: right;
+	width: 125px;
+	clear: none;
+	background-color: #DCE8E9;
+	color: #555;
+	border-top: 1px solid #003333;
+	border-bottom: 1px solid #003333;
+	font-size: 90%;
+	}
+
+#Right {
+	margin: 30px 25px 0 0;
+	padding: 0;
+	padding-left: 20px;
+	float: right;
+	width: 150px;
+	clear: none;
+	font-size: 90%;
+	}
+
+/* STATUS */
+.status { 
+	border-top: 1px solid #003333;
+	border-bottom: 1px solid #003333;
+	background-color: #DCE8E9;
+	line-height: 1.3em;
+	padding: 5px;
+	}
+
+
+.status .subject { 
+	color: #003300;
+	font-size:larger;
+	font-weight: bolder;
+	}
+
+.status .info { 
+	line-height: 1.2em;
+	}
+	
+.status .date .time { 
+	font-style: italic;
+	}
+	
+#TwoColumns {
+	float: left;
+	width: 525px;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	background-color: transparent;
+	}
+	
+* html #TwoColumns {	/* These styles are only applied by the IE family */
+	margin-bottom: 0 !important;	/* IE Mac will apply this rule */
+	margin-bottom: 30px;	/* IE Win-all versions-apply this one */
+	}
+	
+#Content {
+	margin: 15px 0 60px 0px;
+	padding-left: 0px;
+	}
+	
+#ServiceList { 
+	list-style: none;
+	margin-left: -40px;
+	}
+	
+#ThreeColumns {
+	float: left;
+	width: 415px;
+	margin: 0;
+	padding: 0 10px 0 0;
+	background-color: transparent;
+	}
+	
+* html #ThreeColumns {	/* These styles are only applied by the IE family */
+	margin-bottom: 0 !important;	/* IE Mac will apply this rule */
+	margin-bottom: 30px;	/* IE Win-all versions-apply this one */
+	width: 400px !important; 	/* for IE Mac */
+	width: 390px;	/* Keeps IE Win from breaking the Box Model */
+	}
+	
+#Footer {
+	margin: 0px;
+	padding: 5px 0 40px 0px;
+	width: 100%;
+	color: #eee;
+	background: transparent url(templatec-images/footer.gif) repeat-x top center;
+	font-size: 85%;
+	text-align: center;
+	}
+	
+* html #Footer {
+	padding-bottom: 40px !important; /* for IE Mac - gets it right */
+	padding-bottom: 60px;	/* Makes all versions of IE Win display the whole gradient */
+	}
+	
+/*************************** LINKS ***************************/
+
+a:link, a:visited {
+	color: #993300;
+	}
+	
+.navlink a:link {
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+.navlink a:visited {
+	color: #993300;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+.navlink a:hover {
+	text-decoration: underline;
+	}
+	
+#Content a:link {
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+#Content a:visited {
+	color: #5d8181;
+	}
+	
+#Content a:hover {
+	text-decoration: underline;
+	}
+
+#Footer a:link, a:visited {
+	color: #eee;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+#Footer a:hover {
+	text-decoration: underline;
+	}
+	
+.jumpto a:link, .jumpto a:visited {
+  border: none;
+  color: #666;
+}
+.caption a {
+	border: none;
+}
+/*************************** Hx ***************************/
+h1 {
+	color: #003333;
+	font-size: 150%;
+	margin: 0 0 0 2px;
+	padding: 0;
+	display: none;
+	}
+	
+#Topper h1 {
+	margin-left: 15px;
+	font-weight: bold;
+	color: #003333;
+	font-size: 150%;
+	}
+
+#Right h1 {
+	margin: 10px 0 0 -10px;
+	font-size: 105%;
+	}
+	
+h2 {
+	color: #003333;
+	font-size: 130%;
+	margin: 15px 0 0 2px;
+	padding: 0;
+	}
+
+#Right h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	margin: 10px 0 0 -10px;
+	}
+	
+#Content h3, h4, h5, h6 {
+	color: #003333;
+	margin: 15px 0 0 2px;
+	padding: 0;
+	}
+#Content h3 {
+	font-size:  110%;
+	}
+	
+/*************************** LISTS ***************************/
+	
+#Navigation ul {
+	margin: 0px;
+	list-style-type: none;
+	font-size: 90%;
+	}
+	
+#Navigation ul li {
+	margin: 0 0 0px -40px;
+	padding: 0 20px 0 0;
+	}
+
+* html #Navigation ul li {
+	margin-left: 0px;
+	padding-right: 5px;
+	}
+
+#Right ul {
+	margin: 0;
+	padding: 15px 10px;
+	list-style-type: none;
+	}
+	
+#Right ul li {
+	margin: 0 0 1em -20px;
+	padding: 5px;
+	}
+	
+ul.jumpto {
+  background: url("templatec-images/grayfade.jpg") repeat-y left top;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 20px;
+  float: left;
+  width: 380px;
+}
+ul.jumpto li {
+  display: inline;
+  background: url("templatec-images/arrows.gif") no-repeat left center; 
+  margin: 0 30px 0 0;
+  padding: 0 0 0 12px;
+}
+dt {
+  margin: 1em 0 .5em;
+  font-size: 120%;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+dl.illustrated {
+  float: left;
+  margin: 0 0 15px 0;
+  width: 400px;
+}
+.illustrated dt {
+  margin-top: 0;
+  float: right;
+  width: 325px;
+}
+.illustrated dd{
+  margin: 0 0 0 75px;
+}
+.illustrated dd.thumbnail {
+  margin: 0;
+}
+.illustrated dd.thumbnail img {
+  float: left;
+}
+/*************************** P ***************************/
+
+#ORIG-Right p {
+	margin: 5px 10px 15px 10px;
+	margin-left: -10px;
+	padding: 0;
+	}
+	
+#Content p {
+	margin: 6px 0;
+	padding: 0px 2px 2px 2px;
+	}
+	
+.caption p {
+  font-size: 90%;
+  font-style: italic;
+}
+/*************************** TABLES ***************************/
+	
+table {
+	margin:  1em 0 1.5em 0;
+	padding: 0 ;
+	width: 99%;
+	}
+
+caption  {
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+th {
+	text-align: left;
+	border-bottom: solid 1px #737373;
+	line-height: 1.2em;
+	font-size: 90%;
+	padding: 5px 10px;
+	background: #eaefef;
+	}
+	
+td {
+	border-bottom: solid 1px #ccc;
+	line-height: 1.2em;
+	font-size: 90%;
+	padding: 5px 10px;
+	}
+
+	
+/*************************** IMAGES ***************************/
+	
+a img {
+  border: none;
+}
+.caption img, .thumbnail img, .thumb {
+  padding: 10px;
+  border: solid 2px #999;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+}
+.thumbnail img {
+  padding: 5px;
+  margin: 0 10px 10px 0;
+}
+
+/*************************** FORMS ***************************/
+
+input, textarea {
+  background: #DBE3E3;
+  border: solid 1px #c5c5c5;
+  color: #333;
+  padding: 3px;
+}
+label {
+  font-weight: bold;
+   color: #333;
+}
+
+/*************************** MISC ***************************/
+
+.hidden {
+	display: none;
+	}
+	
+.pullquote {
+	float: right;
+	margin: 15px;
+	padding: 10px;
+	width: 150px;
+	font-size: 100%;
+	color: #999999;
+	font-weight: bold;
+	background-color: #DBE3E3;
+	border-top: 1px solid #003333;
+	border-bottom: 1px solid #003333;
+	}
+	
+.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+strong {
+  color: #333;
+}
+pre {
+   background: #eaefef;
+  border: solid 1px #c5c5c5;
+  color: #333;
+  padding: 3px;
+}
+code {
+  background: #eaefef;
+  color: #333;
+  padding: 3px;
+}
+.caption {
+  margin-bottom: 15px;
+}

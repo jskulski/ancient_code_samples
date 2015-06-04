@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* This file is for common CSS between the templates.
+   Mostly for new stuff. We would have to consilidate if this was 
+   a real project. */
+   
+
+/* STATUS */
+.status { 
+	display: block;
+	background: #cccc99;
+	border: thin solid #003333;
+	font-size: smaller;
+ 	}
+
+.status .subject { 
+	color: #003333;
+	font-size: larger;
+	font-weight: bold;
+	display: block;
+	clear: both;
+	}    
+
+.status .date { 
+
+
+	}	
+
+.status .date, .time, .fromtime { 
+	color: #3366CC;
+	font-style: italic;
+	}
+
+.status .time { 
+	}
+	
+.status .fromtime { 
+	display: block;
+	clear: left;
+	}
+
+.status totime { 
+    }
+
+.status p.info { 
+	font-size: xx-small;
+	display: block;
+	}
+
+

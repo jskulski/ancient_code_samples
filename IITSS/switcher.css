@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Switcher { 
+	position: absolute;
+	background: #CCCCCC;
+	border: #990000 dashed thin; 
+	text-align: left;
+}
+
+#Switcher ul { 
+	list-style: none;
+	margin-left: 0px;
+	padding: 40px;
+}
+
+#Switcher a.link { 
+    color: #ccc;
+    }

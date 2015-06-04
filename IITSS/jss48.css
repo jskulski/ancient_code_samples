@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* Jon Skulski HSU Template for IITSS webpage*/
+
+/* GENERAL STYLES */
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #666;
+	font-family:  "Lucida Grande," Lucida Sans Unicode, verdana, arial, sans-serif;
+	font-size: small;
+	line-height: 1.2em;
+	background-color: #fff;
+	}
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #000;
+	}
+
+h1 {
+	line-height: 1.4em;
+	margin: 15px 0px 14px 0;
+	padding-right: 15px;
+	padding-left: 20px;
+	font-size: x-large;
+	/*color: rgb(0,113,188);*/
+	}
+
+a:link, a:visited { 
+	color: rgb(0,113,188);
+	}
+
+a:visited { 
+	border-bottom: 1px dotted rgb(67,180,235);
+	text-decoration:none;
+	}
+
+/* CONTAINERS */
+#Container {	/* Contains background gradient only */
+	width: 100%;
+	margin: 0;
+	padding-top: 15px;
+	background: #ccc;
+	background-attachment: fixed;
+	}
+
+#Content p { 
+	text-indent: 20px;
+	}
+#ContentWrapper {	/* Actual wrapper for all content */
+	position: relative;
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 751px;
+	text-align: left;
+	font-size: 90%;
+	background: #fff;
+	border: 2px solid black;;
+	}
+	
+/* TOP */
+#Masthead {
+    padding-left: 0px;
+    margin: 0px;
+	border-bottom: 2px solid black; 
+	background: rgb(247, 147, 30) url(images/hsu.gif) left center no-repeat;
+	/* tmp */
+	height: 30px;
+    }
+ 
+#Mission { 
+	display: none;
+	}
+
+/* BOTTOM */
+#Footer { 
+	background: #ccc;
+	display: block;
+	margin: 0;
+	padding: 13px 0;
+	}
+
+/* LEFT */
+#Navigation { 
+	background: url(images/logo-blue.png) no-repeat top right ;
+	float:right;
+	width: 135px;
+	padding: 130px 5px 5px 5px;
+	margin: 5px 10px 0px 0px;
+
+	text-align: right;
+	}
+
+Links { 
+	text-align: right;
+	} 	
+	
+ul#Links { 
+	list-style-type: none;
+	white-space: nowrap;
+	padding: 0 0px 0 0;
+	color: rgb(247,147,30);
+	}
+
+.superlink { 
+	/*	color: rgb(247,147,30);*/
+	}
+
+.link { 
+	color:#666;
+	}
+.sublink { 
+	font-size: smaller; 
+	}
+
+/* RIGHT which is now LEFT*/
+#Right { 
+	float: left;
+	width: 175px;
+	padding: 0 20px 0 0;
+	}
+
+/* STATUS */
+#Right ul { 
+	list-style: none;
+	margin-left: -28px;
+	font-size: smaller;
+	}
+
+/* Each Status Box */
+li.status { 
+    background: #ccc;
+	border: #ccc thin 1px;
+	margin: 0 0 10px 0;
+	padding: 4px;
+	}	
+
+li.status .subject { 
+	font-weight: bold;
+	}
+	
+/* CENTER */
+#ThreeColumns { 
+	margin-left: 175px; /*leftnav*/
+	margin-right: 160px; /*rightnav*/	
+	Padding: 0 20px 0 20px;
+	}
+	
+#ThreeColumns ul { 
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: thin dashed rgb(0, 113, 188);
+    border-bottom: thin dashed rgb(0, 113, 188);
+	}
+
+.description h4 { 
+	margin: 0 0 0 0;
+	}
+	
+/* DESCRIPTIONS AND ICONSSSS */
+#ServiceList li { 
+	margin: 15px 15px 15px 0px;
+	}
+
+.icon { 
+	height: 50px;
+	width: 50px;
+	padding: 3px 20px 3px 3px;
+	float: left;
+	}
+
+#gradcap { 
+	background: transparent url(images/gradcap.gif) center no-repeat;
+	}
+
+#computer { 
+	background: transparent url(images/computer.gif) center no-repeat;
+	}
+	
+#wrench { 
+	background: #fff url(images/wrench.gif) center no-repeat;
+	}
+

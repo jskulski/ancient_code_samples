@@ -1,0 +1,31 @@
+Jon Skulski
+Code Samples
+
+_aimgraph_
+
+Aimgraph was a project written in perl to read through logs 
+Gaim (Aol instant messanger client) and print out a webpage
+with a ranking of lines per buddy. I used a CPAN module
+Imager to plot the statistics into a bar graph.
+
+I stopped using instant messanging halfway through the 
+project, hence the "Temporarily" image displayed in the 
+final output. 
+
+_claybot_
+
+A collection of scripts I wrote while at Classifieds Plus.
+
+Two people spent their day updating Excel spreadsheets with
+rate information, then transfering it to the database through 
+a lackluster php html form.
+
+Since our new design required an extensive update to the php scripts,
+anyway, I decided to cut out the extra step. 
+
+I wrote some excel macro output scripts (not included)
+then wrote these perl scripts to import the data into 
+the database directly. Our data guys loved it since they 
+could just update the spreadsheets and import the data. 
+
+

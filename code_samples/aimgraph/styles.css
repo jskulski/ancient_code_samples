@@ -1,0 +1,87 @@
+/* styles.css - styles for my webpage */
+/* hitting a nail with a sledge hammer */
+
+body {
+	background-color: #EFEFEF;
+	font-size: small;
+}
+
+a { 
+	color: red;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+/* block styles for the journal and then misc */ 
+.contentbox {
+	position: relative;
+	left: 20%;
+	background-color: #FEFEFE;
+	width: 60%;
+	padding: 3px;
+	border: 1px solid;
+}
+
+.heading {
+	font-variant: small-caps;
+	font-size: medium;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+
+.date {
+	font-size: xx-small;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.entry {
+	font-size: small
+}
+
+.aimrank {
+	position: relative;
+	border: 1px solid;
+	float: center;
+	left: 12%;
+	background-color: #EFEFEF;
+	width: 70%;
+}
+
+.aimgraph{
+	position: relative;	
+	float: center;
+}
+
+.aimli1 {
+	height: 32px;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+}
+
+.aimli2 {
+	border: 1px solid #CCCCCC;
+	background-color: #CCCCCC;
+	padding: 2px;
+}
+
+img.pic {
+	position: absolute;
+	border: 1px solid;
+	left: 57%;
+	bottom: 5%;
+}
+
+.box {
+	width: 10px;
+	height: 10px;
+	border: 1px solid;
+	background-color: red;
+}
+
+
+

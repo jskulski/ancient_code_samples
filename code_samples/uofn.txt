@@ -1,0 +1,38 @@
+#!/usr/bin/perl -w
+#
+# uofn.pl
+#
+# usage: uofn [number]
+# result: 	spits out the set of U(number).
+#  			U(n) := numbers realatively prime to n and less then n.
+#
+# (Two integers are relatively prime if they share no common 
+# positive factors (divisors) except 1. 
+#
+# IE two integers M and N are  relatively prime if gcd(M,N) = 1 )
+#
+# purpose: ha
+#
+# 
+
+sub gcd($$);
+
+#--MAIN
+
+if ( @ARGV != 1 ) { print STDERR "usage: uofn [number]\n"; exit(1); }
+$n = $ARGV[0];
+$n > 0 || die "number must be greater than 0";
+
+@uofn = (1);
+foreach (2..$n-1) { @uofn = (@uofn,$_) if gcd($n,$_) == 1   }
+
+# // output
+print "U($n) = { " . join(", ", @uofn) . " } \n";
+print "U($n) has " . @uofn . " element(s).\n";
+
+# // functions
+sub gcd($$) {
+	my ($x,$y) = @_;
+	($y,$x) = ($x % $y,$y) until $y == 0;
+	return $x
+}
